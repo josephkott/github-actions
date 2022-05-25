@@ -1,0 +1,17 @@
+name: Create Dummy File
+
+on: workflow_dispatch
+
+jobs:
+  create-dummy-file:
+    # GitHub runner
+    # runs-on: ubuntu-latest
+
+    # Self-hosted runner
+    runs-on: self-hosted
+
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          touch ~/file.txt
+          echo 'text' > ~/file.txt
