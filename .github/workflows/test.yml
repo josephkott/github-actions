@@ -3,11 +3,8 @@ name: Run Python Tests
 on:
   workflow_dispatch:
   pull_request:
-    types:
-      - opened
-      - reopened
     branches:
-      - master
+      - main
 
 jobs:
   test:
