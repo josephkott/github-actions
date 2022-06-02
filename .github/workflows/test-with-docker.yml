@@ -1,4 +1,4 @@
-name: Run Python Tests with Docker
+name: Run Python Tests
 
 on: workflow_dispatch
 
