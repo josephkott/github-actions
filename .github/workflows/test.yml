@@ -8,6 +8,7 @@ on:
       - reopened
     branches:
       - master
+  push:
 
 jobs:
   test:
