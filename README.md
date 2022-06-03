@@ -1,3 +1,3 @@
 # GitHub Actions
 
-Add some test changes
+GitHub Actions sandbox repository.
