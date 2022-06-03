@@ -11,6 +11,10 @@ on:
 
 jobs:
   test:
+    if: |
+      !github.event.pull_request.head.repo.fork &&
+      github.head_ref == 'develop'
+
     # GitHub runner
     runs-on: ubuntu-latest
 
